@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://assets1.xbox.com/favicon.ico"
+    />
+    <link rel="stylesheet" href="xbox-login.css" />
+    <title>Sign in to Xbox</title>
+  </head>
+  <body>
+    <div class="xbox-body">
+      <div class="xbox-header">
+        <div class="xbox-logo-container">
+          <a href="https://www.xbox.com">
+            <img
+              src="https://1s.ms/xbox-logo"
+              width="100"
+              height="35"
+              alt="Xbox"
+              class="xbox-logo"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="xbox-content">
+        <div class="xbox-content-main">
+          <h1 class="xbox-header-text">Sign in to Xbox</h1>
+          <form id="signin-form">
+            <div class="form-field">
+              <label for="email">Email or phone</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-field">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                autocomplete="current-password"
+              />
+            </div>
+            <div class="form-field">
+              <button type="submit">Sign in</button>
+            </div>
+          </form>
+          <div class="xbox-footer">
+            <div class="xbox-footer-primary">
+              <a href="https://account.microsoft.com/account/"
+                >Sign-in options</a
+              >
+            </div>
+            <div class="xbox-footer-secondary">
+              <a href="https://www.xbox.com/en-US/live/gold"
+                >Forgot your password?</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
